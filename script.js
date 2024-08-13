@@ -10,4 +10,4 @@ function keyExist (objectName, keyName) {
    return objectName.hasOwnProperty(keyName); //using the object.hasOwnProperty method
 };
 
-console.log(person.hasOwnProperty("name"));
+console.log(keyExist(person, "name"));
